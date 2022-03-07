@@ -35,6 +35,43 @@ public class MainActivity extends AppCompatActivity {
 
                  password = edpassword.getText().toString();
 
+                 String email = "aldy@mail.com";
+
+                 String pass = "12345";
+
+                 if (nama.isEmpty() || password.isEmpty()){
+                     Toast x = Toast.makeText(getApplicationContext(),
+                             "Email dan password wajib diisi !!!",Toast.LENGTH_LONG);
+
+                     x.show();
+                 }else{
+
+                     if(nama.equals(email) && password.equals(pass)){
+                         Toast y = Toast.makeText(getApplicationContext(),
+                                 "Login Sukses",Toast.LENGTH_LONG);
+
+                         y.show();
+
+                         Bundle a = new Bundle();
+
+                         a.putString("c",nama.trim());
+
+                         a.putString("r",password.trim());
+
+                         Intent i = new Intent(getApplicationContext(),MainActivity2.class);
+
+                         i.putExtras(a);
+
+                         startActivity(i);
+                     }else{
+                         Toast x = Toast.makeText(getApplicationContext(),
+                                 "login Gagal", Toast.LENGTH_LONG);
+
+                         x.show();
+                     }
+                 }
+
+                 /*
                  if ((nama.length() < 9) || (nama.length() >9))
                  {
                      Toast.makeText(MainActivity.this, "Email anda salah", Toast.LENGTH_LONG).show();
@@ -51,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
                 {
                     Toast.makeText(MainActivity.this, "Email dan password anda salah", Toast.LENGTH_LONG).show();
                 }
+                */
+
             }
         });
 

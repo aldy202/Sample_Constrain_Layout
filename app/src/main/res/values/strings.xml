@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Sample Constrain Layout</string>
-    <string name="tEmail">Email</string>
-    <string name="tPassword">Password</string>
+    <string name="tEmail">Email :</string>
+    <string name="tPassword">Password :</string>
     <string name="bsignin">Sign-In</string>
+    <string name="tData">Data Anda adalah</string>
+    <string name="txemail">Email Anda</string>
+    <string name="txpassword">Password Anda</string>
+    <string name="label2">Login Berhasil</string>
+    <string name="label1">Halaman utama</string>
+
 </resources>
