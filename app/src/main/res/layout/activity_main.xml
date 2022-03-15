@@ -51,7 +51,6 @@
         android:hint="@string/tPassword"
         android:inputType="textPassword"
         android:padding="12dp"
-        android:text="Password"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"

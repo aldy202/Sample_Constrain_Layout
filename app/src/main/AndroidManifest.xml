@@ -9,6 +9,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SampleConstrainLayout">
 
+        <activity android:name=".DaftarActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/label3"></activity>
+
         <activity
             android:name=".MainActivity"
             android:exported="true"

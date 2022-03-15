@@ -8,5 +8,13 @@
     <string name="txpassword">Password Anda</string>
     <string name="label2">Login Berhasil</string>
     <string name="label1">Halaman utama</string>
+    <string name="label3">Halaman Pendaftaran</string>
+    <string name="mDaftar">Pendaftaran</string>
+    <string name="ldaftar">Daftar</string>
+    <string name="enama">Masukkan Nama</string>
+    <string name="eemail">Masukkan Email</string>
+    <string name="epass">Masukkan Password</string>
+    <string name="erepass">Masukan Password Kembali</string>
+    <string name="ealamat">Masukan Alamat</string>
 
 </resources>

@@ -1,9 +1,12 @@
 package com.example.sampleconstrainlayout;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -16,6 +19,21 @@ public class MainActivity extends AppCompatActivity {
     EditText edemail, edpassword;
 
     String nama, password;
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if(item.getItemId() == R.id.mndaftar){
+            Intent i = new Intent(getApplicationContext(),DaftarActivity.class);
+            startActivity(i);
+        }
+        return super.onOptionsItemSelected(item);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +89,8 @@ public class MainActivity extends AppCompatActivity {
                      }
                  }
 
+
+
                  /*
                  if ((nama.length() < 9) || (nama.length() >9))
                  {
@@ -92,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
 
     }
 }
