@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
 
                  password = edpassword.getText().toString();
 
-                 String email = "aldy@mail.com";
+                 String email = "aldy";
 
                  String pass = "12345";
 
@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
                          a.putString("r",password.trim());
 
-                         Intent i = new Intent(getApplicationContext(),MainActivity2.class);
+                         Intent i = new Intent(getApplicationContext(),Activity_Home.class);
 
                          i.putExtras(a);
 

@@ -4,9 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/layout/activity_daftar.xml" value="0.264" />
-        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/layout/activity_data.xml" value="0.1" />
+        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/layout/activity_lihat_data.xml" value="0.1" />
+        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/layout/activity_main.xml" value="0.16" />
         <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/layout/activity_main2.xml" value="0.22" />
-        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/menu/menu.xml" value="0.536" />
+        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/layout/item_listview.xml" value="0.1" />
+        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/menu/menu.xml" value="0.2" />
+        <entry key="..\:/Aldy Ahmad fauzi/Kuliah/Semester 4/PAM/Constraint Layout/app/src/main/res/menu/popup_menu.xml" value="0.1" />
       </map>
     </option>
   </component>
