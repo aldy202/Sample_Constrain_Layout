@@ -49,7 +49,7 @@ public class Activity_Home extends AppCompatActivity implements PopupMenu.OnMenu
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        listNama = new String[]{"Inayah","Ilham","Eris","Fikri",
+        listNama = new String[]{"Inayah","Ilham","Eris","Fikri","Maul",
         "Intan","Vina","Gita","Vian","Lutfi"};
 
         list = findViewById(R.id.listKontak);

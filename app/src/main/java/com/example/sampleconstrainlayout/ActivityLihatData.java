@@ -45,6 +45,7 @@ public class ActivityLihatData extends AppCompatActivity {
             case "Maul":
                 tvnama.setText("Maul M");
                 tvnomer.setText("087734354535");
+                break;
             case "Intan":
                 tvnama.setText("intan S");
                 tvnomer.setText("087720301234");
